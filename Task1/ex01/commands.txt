@@ -1,0 +1,76 @@
+===
+Name: stat
+Description:
+Syntax: stat [OPTION] FILE...
+Example: stat main.c
+Note: Can show a lot of different useful information!
+
+===
+Name: w
+Description: displays information about the users currently in the machine and their processes
+Syntax: w [option ...] [user]
+Example: w
+Note: Useful in system monitoring and administration of system.
+
+===
+Name: wc
+Description: print newline, word, and byte counts for each file
+Syntax: wc [OPTION] [FILE]
+Example: wc main.c
+Note:
+
+===
+Name: echo
+Description: write arguments to standard output
+Syntax: echo [string...]
+Example: echo man
+Note: useful to show Environment variables(echo $PATH)
+
+===
+Name: chown
+Description: change the file ownership
+Syntax: chown [-h] owner[:group] file...
+        chown -R [-H|-L|-P] owner[:group] file...
+Example:
+Note:
+
+===
+Name: cat
+Description: concatenate files and print on the standard output
+Syntax: cat [OPTION]... [FILE]...
+Example: cat main.c
+Note:
+
+===
+Name: cd
+Description: change directory
+Syntax: cd [-L|-P] [directory]
+Example: cd /
+Note:
+
+===
+Name: export
+Description: set the export attribute for variables
+Syntax: export name[=word]...
+        export -p
+Example: export PATH=/local/bin:$PATH
+Note: using of -p means that you need to write export in stdin like "export %s=%s\n", <name>, <value>
+
+===
+Name: scp
+Description: copies files betweenn hosts on a network
+Syntax:  scp [-346ABCOpqRrsTv] [-c cipher] [-D sftp_server_path] [-F
+       ssh_config] [-i identity_file] [-J destination] [-l limit] [-o
+       ssh_option] [-P port] [-S program] [-X sftp_option] source ...
+       target
+Example: 
+Note:
+
+===
+Name: ls
+Description: list directory contents
+Syntax: ls [OPTION]... [FILE]...
+Example: ls .
+Note:
+
+

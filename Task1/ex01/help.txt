@@ -1,0 +1,3 @@
+JCPU - Job CPU - cumulative CPU time used by all processes attached to a user's terminal (tty). This includes currently running background jobs but does not account for completed background processes.
+
+PCPU - percentage of CPU time a process has used, scaled by the number of CPU cores
