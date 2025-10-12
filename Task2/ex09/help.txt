@@ -1,0 +1,3 @@
+rosdep install -i --from-path src --rosdistro humble -y
+
+colcon build --packages-select py_pubsub
