@@ -1,0 +1,17 @@
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 sum_full_name_service
+
+colcon build --packages-select sum_full_name_service
+
+
+ros2 pkg create --build-type ament_python --license Apache-2.0 service_full_name --dependencies rclpy sum_full_name_service
+
+colcon build --packages-select service_full_name
+
+
+
+ros2 run service_full_name service_name
+
+
+other terminal:
+ros2 run service_full_name client_name me fucking hacker
+

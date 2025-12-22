@@ -1,0 +1,241 @@
+[0.036s] Invoking command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ms/ros2_ws/src/sum_full_name_service -DCMAKE_INSTALL_PREFIX=/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.313s] -- The CXX compiler identification is GNU 11.4.0
+[0.336s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.546s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.546s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.553s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.777s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.777s] -- Detecting CXX compile features
+[0.779s] -- Detecting CXX compile features - done
+[0.791s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.258s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.620s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.859s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.905s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.697s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.127s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.149s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.238s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.239s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.239s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.321s] -- Found PythonExtra: .so  
+[4.509s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.513s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_generator_c>;$<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_typesupport_introspection_cpp>;/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_generator_c;/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service/rosidl_generator_py
+[4.513s] -- Configured cppcheck exclude dirs and/or files: 
+[4.518s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.529s] -- Added test 'lint_cmake' to check CMake code style
+[4.538s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.571s] -- Added test 'uncrustify' to check C / C++ code style
+[4.571s] -- Configured uncrustify additional arguments: 
+[4.575s] -- Added test 'xmllint' to check XML markup files
+[4.590s] -- Configuring done
+[4.673s] -- Generating done
+[4.698s] -- Build files have been written to: /home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service
+[4.710s] Invoked command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ms/ros2_ws/src/sum_full_name_service -DCMAKE_INSTALL_PREFIX=/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service
+[4.715s] Invoking command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service -- -j8 -l8
+[4.814s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.846s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.871s] [  6%] Built target ament_cmake_python_copy_sum_full_name_service
+[5.872s] running egg_info
+[5.873s] creating sum_full_name_service.egg-info
+[5.874s] writing sum_full_name_service.egg-info/PKG-INFO
+[5.875s] writing dependency_links to sum_full_name_service.egg-info/dependency_links.txt
+[5.875s] writing top-level names to sum_full_name_service.egg-info/top_level.txt
+[5.876s] writing manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+[5.883s] reading manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+[5.883s] [  6%] Built target sum_full_name_service__cpp
+[5.885s] writing manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+[5.891s] [  9%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_c.dir/rosidl_generator_c/sum_full_name_service/srv/detail/sum_full_name__functions.c.o[0m
+[5.909s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.911s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.914s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.959s] [ 19%] Built target ament_cmake_python_build_sum_full_name_service_egg
+[6.096s] [ 22%] [32m[1mLinking C shared library libsum_full_name_service__rosidl_generator_c.so[0m
+[6.202s] [ 22%] Built target sum_full_name_service__rosidl_generator_c
+[6.231s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.231s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.244s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.252s] [ 35%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sum_full_name_service/srv/sum_full_name__type_support.cpp.o[0m
+[7.318s] [ 38%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sum_full_name_service/srv/detail/sum_full_name__type_support.cpp.o[0m
+[7.428s] [ 41%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sum_full_name_service/srv/detail/dds_fastrtps/sum_full_name__type_support.cpp.o[0m
+[7.461s] [ 45%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/sum_full_name_service/srv/sum_full_name__type_support.cpp.o[0m
+[7.614s] [ 48%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_c.so[0m
+[7.643s] [ 51%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sum_full_name_service/srv/detail/sum_full_name__type_support.c.o[0m
+[7.763s] [ 54%] [32m[1mLinking C shared library libsum_full_name_service__rosidl_typesupport_introspection_c.so[0m
+[7.796s] [ 54%] Built target sum_full_name_service__rosidl_typesupport_c
+[7.885s] [ 58%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sum_full_name_service/srv/detail/sum_full_name__type_support_c.cpp.o[0m
+[7.893s] [ 58%] Built target sum_full_name_service__rosidl_typesupport_introspection_c
+[8.337s] [ 61%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_cpp.so[0m
+[8.461s] [ 61%] Built target sum_full_name_service__rosidl_typesupport_cpp
+[8.742s] [ 64%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_introspection_cpp.so[0m
+[8.911s] [ 64%] Built target sum_full_name_service__rosidl_typesupport_introspection_cpp
+[8.988s] [ 67%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.050s] [ 70%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_fastrtps_c.so[0m
+[9.150s] [ 70%] Built target sum_full_name_service__rosidl_typesupport_fastrtps_cpp
+[9.225s] [ 70%] Built target sum_full_name_service__rosidl_typesupport_fastrtps_c
+[9.283s] [ 70%] Built target sum_full_name_service
+[9.325s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.222s] [ 74%] Built target sum_full_name_service__py
+[10.283s] [ 77%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_py.dir/rosidl_generator_py/sum_full_name_service/srv/_sum_full_name_s.c.o[0m
+[10.512s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/sum_full_name_service/libsum_full_name_service__rosidl_generator_py.so[0m
+[10.609s] [ 80%] Built target sum_full_name_service__rosidl_generator_py
+[10.663s] [ 83%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_c.c.o[0m
+[10.665s] [ 87%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.666s] [ 90%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.945s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.946s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.956s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.031s] [100%] Built target sum_full_name_service__rosidl_typesupport_c__pyext
+[11.032s] [100%] Built target sum_full_name_service__rosidl_typesupport_introspection_c__pyext
+[11.042s] [100%] Built target sum_full_name_service__rosidl_typesupport_fastrtps_c__pyext
+[11.076s] Invoked command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service -- -j8 -l8
+[11.095s] Invoking command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service
+[11.109s] -- Install configuration: ""
+[11.110s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/ament_index/resource_index/rosidl_interfaces/sum_full_name_service
+[11.110s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.111s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+[11.111s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_generator_c__visibility_control.h
+[11.111s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.112s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.112s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__functions.h
+[11.112s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__functions.c
+[11.112s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.h
+[11.113s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__struct.h
+[11.113s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/sum_full_name.h
+[11.113s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/library_path.sh
+[11.114s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/library_path.dsv
+[11.114s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_c.so
+[11.116s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_c.so" to ""
+[11.116s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.116s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+[11.116s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.117s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.117s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.117s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_fastrtps_c.h
+[11.118s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_c.so
+[11.119s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_c.so" to ""
+[11.119s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.120s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+[11.120s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.120s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.120s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.121s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_introspection_c.h
+[11.121s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.c
+[11.121s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_c.so
+[11.123s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_c.so" to ""
+[11.123s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_c.so
+[11.124s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_c.so" to ""
+[11.124s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.125s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+[11.125s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.125s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.125s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.126s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__struct.hpp
+[11.126s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__traits.hpp
+[11.126s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.hpp
+[11.127s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__builder.hpp
+[11.127s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/sum_full_name.hpp
+[11.128s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.128s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+[11.128s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.128s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.129s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.129s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_fastrtps_cpp.hpp
+[11.129s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/dds_fastrtps
+[11.129s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so
+[11.131s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.131s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+[11.131s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+[11.132s] -- Up-to-date: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+[11.132s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.cpp
+[11.132s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_introspection_cpp.hpp
+[11.133s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_cpp.so
+[11.134s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_cpp.so" to ""
+[11.134s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_cpp.so
+[11.135s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_cpp.so" to ""
+[11.135s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/pythonpath.sh
+[11.136s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/pythonpath.dsv
+[11.136s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service-0.0.0-py3.10.egg-info
+[11.137s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service-0.0.0-py3.10.egg-info/top_level.txt
+[11.137s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.138s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service-0.0.0-py3.10.egg-info/PKG-INFO
+[11.138s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.139s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service
+[11.139s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.139s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_c.c
+[11.140s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/__init__.py
+[11.140s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_introspection_c.c
+[11.140s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.141s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.141s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv
+[11.142s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv/__init__.py
+[11.142s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv/_sum_full_name.py
+[11.142s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv/_sum_full_name_s.c
+[11.142s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.143s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/libsum_full_name_service__rosidl_generator_py.so
+[11.246s] Listing '/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service'...
+[11.246s] Compiling '/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/__init__.py'...
+[11.247s] Listing '/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv'...
+[11.247s] Compiling '/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv/__init__.py'...
+[11.247s] Compiling '/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/srv/_sum_full_name.py'...
+[11.254s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.255s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.255s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.257s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.258s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.262s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/local/lib/python3.10/dist-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.263s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_py.so
+[11.263s] -- Set runtime path of "/home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_py.so" to ""
+[11.264s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName.idl
+[11.264s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName.srv
+[11.265s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName_Request.msg
+[11.265s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName_Response.msg
+[11.266s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/ament_index/resource_index/package_run_dependencies/sum_full_name_service
+[11.266s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/ament_index/resource_index/parent_prefix_path/sum_full_name_service
+[11.266s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/ament_prefix_path.sh
+[11.267s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/ament_prefix_path.dsv
+[11.268s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/path.sh
+[11.268s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/environment/path.dsv
+[11.268s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/local_setup.bash
+[11.269s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/local_setup.sh
+[11.269s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/local_setup.zsh
+[11.269s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/local_setup.dsv
+[11.270s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/package.dsv
+[11.271s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/ament_index/resource_index/packages/sum_full_name_service
+[11.272s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cExport.cmake
+[11.273s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cExport-noconfig.cmake
+[11.273s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cExport.cmake
+[11.274s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.275s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cExport.cmake
+[11.275s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.276s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cExport.cmake
+[11.277s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cExport-noconfig.cmake
+[11.277s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cppExport.cmake
+[11.278s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.279s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.280s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cppExport.cmake
+[11.280s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.281s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cppExport.cmake
+[11.281s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cppExport-noconfig.cmake
+[11.282s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_pyExport.cmake
+[11.282s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_pyExport-noconfig.cmake
+[11.283s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake-extras.cmake
+[11.283s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.284s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_libraries-extras.cmake
+[11.284s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_targets-extras.cmake
+[11.285s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.285s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.286s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.286s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_serviceConfig.cmake
+[11.287s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_serviceConfig-version.cmake
+[11.287s] -- Installing: /home/ms/ros2_ws/src/sum_full_name_service/install/sum_full_name_service/share/sum_full_name_service/package.xml
+[11.293s] Invoked command in '/home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ms/ros2_ws/install/py_pubsub:/home/ms/ros2_ws/install/py_my_package_1:/home/ms/ros2_ws/install/my_package:/home/ms/ros2_ws/install/ms:/home/ms/ros2_ws/install/launch_testing_examples:/home/ms/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ms/ros2_ws/install/examples_rclpy_minimal_service:/home/ms/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ms/ros2_ws/install/examples_rclpy_minimal_client:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ms/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ms/ros2_ws/install/examples_rclpy_guard_conditions:/home/ms/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ms/ros2_ws/src/sum_full_name_service/build/sum_full_name_service

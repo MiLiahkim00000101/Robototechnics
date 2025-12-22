@@ -1,0 +1,16 @@
+ros2 topic list
+
+ros2 bag record <topic_name>
+
+ros2 bag record -o subset /turtle1/cmd_vel /turtle1/pose
+
+ros2 bag info <bag_file_name>
+
+ros2 topic hz /turtle1/pose --- Проверка частоты опроса топика /turtle1/pose
+
+ros2 bag play turtle_cmd_vel.mcap --rate 2.0
+
+
+ros2 topic echo /turtle1/pose > pose_speed_x1.yaml &
+ros2 bag play turtle_cmd_vel.mcap --rate 1.0
+wait
