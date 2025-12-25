@@ -1,0 +1,42 @@
+[4.423s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/Cleaning_act_cl_svr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Cleaning_act_cl_svr build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/install.log --single-version-externally-managed install_data
+[4.817s] running egg_info
+[4.817s] creating ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info
+[4.848s] writing ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/PKG-INFO
+[4.849s] writing dependency_links to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/dependency_links.txt
+[4.849s] writing entry points to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/entry_points.txt
+[4.850s] writing requirements to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/requires.txt
+[4.850s] writing top-level names to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/top_level.txt
+[4.850s] writing manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+[4.911s] reading manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+[4.911s] adding license file 'LICENSE'
+[4.912s] writing manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+[4.913s] running build
+[4.913s] running build_py
+[4.913s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build
+[4.914s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib
+[4.914s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+[4.914s] copying Cleaning_act_cl_svr/cleaning_action_client.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+[4.914s] copying Cleaning_act_cl_svr/cleaning_action_server.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+[4.915s] copying Cleaning_act_cl_svr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+[4.915s] running install
+[4.923s] running install_lib
+[4.961s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+[4.961s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/cleaning_action_client.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+[4.962s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/cleaning_action_server.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+[4.962s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+[4.963s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/cleaning_action_client.py to cleaning_action_client.cpython-312.pyc
+[4.963s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/cleaning_action_server.py to cleaning_action_server.cpython-312.pyc
+[4.964s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/__init__.py to __init__.cpython-312.pyc
+[4.964s] running install_data
+[4.964s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index
+[4.964s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index
+[4.965s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index/packages
+[4.965s] copying resource/Cleaning_act_cl_svr -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index/packages
+[4.966s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/Cleaning_act_cl_svr
+[4.966s] running install_egg_info
+[5.021s] Copying ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr-0.0.0-py3.12.egg-info
+[5.025s] running install_scripts
+[5.264s] Installing client script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/Cleaning_act_cl_svr
+[5.265s] Installing server script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/Cleaning_act_cl_svr
+[5.265s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/install.log'
+[5.348s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/Cleaning_act_cl_svr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Cleaning_act_cl_svr build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/install.log --single-version-externally-managed install_data

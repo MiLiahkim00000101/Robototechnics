@@ -1,0 +1,58 @@
+[4.375s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/learning_tf2_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[4.818s] running egg_info
+[4.819s] creating ../../build/learning_tf2_py/learning_tf2_py.egg-info
+[4.849s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[4.850s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[4.850s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[4.851s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[4.851s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[4.851s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[4.918s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[4.919s] adding license file 'LICENSE'
+[4.919s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[4.920s] running build
+[4.920s] running build_py
+[4.920s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build
+[4.921s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib
+[4.921s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.921s] copying learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.921s] copying learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.922s] copying learning_tf2_py/turtle_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.922s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.922s] copying learning_tf2_py/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.922s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py
+[4.922s] running install
+[4.928s] running install_lib
+[4.965s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.965s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.965s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.966s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.966s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.967s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.967s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[4.967s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc
+[4.968s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-312.pyc
+[4.968s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[4.968s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[4.970s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/__init__.py to __init__.cpython-312.pyc
+[4.970s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+[4.972s] running install_data
+[4.973s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/ament_index
+[4.973s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/ament_index/resource_index
+[4.974s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/ament_index/resource_index/packages
+[4.974s] copying resource/learning_tf2_py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/ament_index/resource_index/packages
+[4.975s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/learning_tf2_py
+[4.975s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/learning_tf2_py/launch
+[4.977s] copying launch/turtle_tf2_demo.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/learning_tf2_py/launch
+[4.978s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/learning_tf2_py/launch
+[4.978s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/share/learning_tf2_py/launch
+[4.980s] running install_egg_info
+[4.999s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info
+[5.001s] running install_scripts
+[5.214s] Installing dynamic_frame_tf2_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/learning_tf2_py
+[5.214s] Installing fixed_frame_tf2_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/learning_tf2_py
+[5.214s] Installing static_turtle_tf2_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/learning_tf2_py
+[5.215s] Installing turtle_tf2_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/learning_tf2_py
+[5.215s] Installing turtle_tf2_listener script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/learning_tf2_py
+[5.215s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/install.log'
+[5.283s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/learning_tf2_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/learning_tf2_py/install.log --single-version-externally-managed install_data

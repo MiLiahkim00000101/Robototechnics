@@ -1,0 +1,9 @@
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/uninstall.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/ex09_srv_msg_uninstall.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/test.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/edit_cache.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/rebuild_cache.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/list_install_components.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/install.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/install/local.dir
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg/CMakeFiles/install/strip.dir

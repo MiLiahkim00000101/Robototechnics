@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e791f9f42c862887373f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "sum_full_name_service__py",
+					"jsonFile" : "directory-sum_full_name_service__py-c9b12fa22f9b87f0dd42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/sum_full_name_service__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sum_full_name_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sum_full_name_service_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sum_full_name_service_egg-75ba33feff08063ddb1c.json",
+					"name" : "ament_cmake_python_build_sum_full_name_service_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sum_full_name_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sum_full_name_service-fbdf2fa81a49dc6d1946.json",
+					"name" : "ament_cmake_python_copy_sum_full_name_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service-d7fbd95c32e5a7cc8ab2.json",
+					"name" : "sum_full_name_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__cpp-6197a4e72049ab95e6c1.json",
+					"name" : "sum_full_name_service__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sum_full_name_service__py::@88faaffaa5bd821ac30f",
+					"jsonFile" : "target-sum_full_name_service__py-d1c8e538e6198fd60cfa.json",
+					"name" : "sum_full_name_service__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_generator_c-86870b1ffcedc64c241b.json",
+					"name" : "sum_full_name_service__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_generator_py-ead6588189d89745ba02.json",
+					"name" : "sum_full_name_service__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_generator_type_description-a8fc5c6d5d10802a6509.json",
+					"name" : "sum_full_name_service__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_c-f8d8e6687f9ac110d3ff.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_cpp-0eb67e2eaf684205a81c.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_fastrtps_c-323ae9782dfcbd631649.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_fastrtps_cpp-b187ec769ac19f170850.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_introspection_c-daa277a7a395119aac15.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service__rosidl_typesupport_introspection_cpp-7332e3d5803760c8aa41.json",
+					"name" : "sum_full_name_service__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service_s__rosidl_typesupport_c-979f0c9490c011ba0382.json",
+					"name" : "sum_full_name_service_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service_s__rosidl_typesupport_fastrtps_c-3f38b63e75cc7a06850b.json",
+					"name" : "sum_full_name_service_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service_s__rosidl_typesupport_introspection_c-2569b834a9b20ffd7a90.json",
+					"name" : "sum_full_name_service_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum_full_name_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum_full_name_service_uninstall-177568cba8911f803ae9.json",
+					"name" : "sum_full_name_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-23a933f9538a469b80f9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service",
+		"source" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/sum_full_name_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

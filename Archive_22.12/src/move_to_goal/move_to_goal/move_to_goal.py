@@ -26,19 +26,23 @@ class Coordinator(Node):
             1
         )
 
+        print("constructor")
+
         self.goal_pose = Pose()
         self.curr_pose = Pose()
         self.goal_achieved = False
         self.pose_received = False
 
         
-        self.timer = None
+        timer_period = 0.001  # seconds
+        self.timer = self.create_timer(timer_period, self.step_to_target)
 
         self.i = 0
     
     def pose_callback(self, pose):
         self.curr_pose = pose
         self.pose_received = True
+        print("pose_callback")
     
     def set_goal_pose(self, x, y, theta):
         self.goal_pose = Pose(x=x, y=y, theta=theta)
@@ -111,13 +115,6 @@ class Coordinator(Node):
         print()
         print("goal_pose:", self.goal_pose)
         print()
-
-    def is_in_bounds(self):
-        if self.curr_pose.x >= 11 - 0.2 or self.curr_pose.x <= 0.2:
-            return False
-        elif self.curr_pose.y >= 11 - 0.2 or self.curr_pose.y <= 0.2:
-            return False
-        return True
     
     def move_to_goal(self):
         timer_period = 0.1  # seconds
@@ -136,6 +133,7 @@ def main():
     rclpy.init()
 
     coordinator = Coordinator()
+    print("coordinator created!!!", end="\n\n\n")
     coordinator.set_goal_pose(float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3]))
 
     rclpy.spin(coordinator)

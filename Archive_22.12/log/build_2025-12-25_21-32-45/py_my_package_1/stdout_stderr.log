@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/py_my_package_1/py_my_package_1.egg-info
+writing ../../build/py_my_package_1/py_my_package_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_my_package_1/py_my_package_1.egg-info/dependency_links.txt
+writing requirements to ../../build/py_my_package_1/py_my_package_1.egg-info/requires.txt
+writing top-level names to ../../build/py_my_package_1/py_my_package_1.egg-info/top_level.txt
+writing manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1
+copying py_my_package_1/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1
+running install
+running install_lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index/packages
+copying resource/py_my_package_1 -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/py_my_package_1
+running install_egg_info
+Copying ../../build/py_my_package_1/py_my_package_1.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/install.log'

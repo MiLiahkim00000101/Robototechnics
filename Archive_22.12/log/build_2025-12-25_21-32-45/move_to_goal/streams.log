@@ -1,0 +1,41 @@
+[4.475s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/move_to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_to_goal build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/install.log --single-version-externally-managed install_data
+[4.854s] running egg_info
+[4.854s] creating ../../build/move_to_goal/move_to_goal.egg-info
+[4.883s] writing ../../build/move_to_goal/move_to_goal.egg-info/PKG-INFO
+[4.884s] writing dependency_links to ../../build/move_to_goal/move_to_goal.egg-info/dependency_links.txt
+[4.884s] writing entry points to ../../build/move_to_goal/move_to_goal.egg-info/entry_points.txt
+[4.885s] writing requirements to ../../build/move_to_goal/move_to_goal.egg-info/requires.txt
+[4.885s] writing top-level names to ../../build/move_to_goal/move_to_goal.egg-info/top_level.txt
+[4.885s] writing manifest file '../../build/move_to_goal/move_to_goal.egg-info/SOURCES.txt'
+[4.949s] reading manifest file '../../build/move_to_goal/move_to_goal.egg-info/SOURCES.txt'
+[4.949s] adding license file 'LICENSE'
+[4.950s] writing manifest file '../../build/move_to_goal/move_to_goal.egg-info/SOURCES.txt'
+[4.951s] running build
+[4.952s] running build_py
+[4.952s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build
+[4.953s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib
+[4.953s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal
+[4.953s] copying move_to_goal/move_to_goal_old.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal
+[4.954s] copying move_to_goal/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal
+[4.955s] copying move_to_goal/move_to_goal.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal
+[4.956s] running install
+[4.966s] running install_lib
+[4.988s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal
+[4.989s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal/move_to_goal_old.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal
+[4.989s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal
+[4.989s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build/lib/move_to_goal/move_to_goal.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal
+[4.990s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal/move_to_goal_old.py to move_to_goal_old.cpython-312.pyc
+[4.991s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal/__init__.py to __init__.cpython-312.pyc
+[4.991s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal/move_to_goal.py to move_to_goal.cpython-312.pyc
+[4.991s] running install_data
+[4.992s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/share/ament_index
+[4.992s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/share/ament_index/resource_index
+[4.992s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/share/ament_index/resource_index/packages
+[4.993s] copying resource/move_to_goal -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/share/ament_index/resource_index/packages
+[4.993s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/share/move_to_goal
+[4.993s] running install_egg_info
+[5.023s] Copying ../../build/move_to_goal/move_to_goal.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages/move_to_goal-0.0.0-py3.12.egg-info
+[5.024s] running install_scripts
+[5.230s] Installing move_to_goal script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/move_to_goal
+[5.231s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/install.log'
+[5.328s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/move_to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/move_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_to_goal build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/move_to_goal/install.log --single-version-externally-managed install_data

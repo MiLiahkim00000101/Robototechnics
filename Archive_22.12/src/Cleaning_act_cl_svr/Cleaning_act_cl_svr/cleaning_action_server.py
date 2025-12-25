@@ -4,10 +4,8 @@ import math as m
 import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
-from queue import Queue
 
 from action_cleaning_robot.action import CleaningTask
-from move_to_goal.move_to_goal import Coordinator
 
 class Point():
     def __init__(self, x=0, y=0):    
@@ -24,9 +22,6 @@ class CleaningTaskActionServer(Node):
             'cleaningtask',
             self.execute_callback)
     
-        self.coordinator = Coordinator()
-
-        point_queue = Queue() 
 
     def execute_callback(self, goal_handle):
         self.get_logger().info('Executing goal...')

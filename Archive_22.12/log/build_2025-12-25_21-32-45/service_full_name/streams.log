@@ -1,0 +1,42 @@
+[1.512s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/service_full_name': AMENT_PREFIX_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/install.log --single-version-externally-managed install_data
+[1.896s] running egg_info
+[1.896s] creating ../../build/service_full_name/service_full_name.egg-info
+[1.926s] writing ../../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[1.926s] writing dependency_links to ../../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[1.926s] writing entry points to ../../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[1.927s] writing requirements to ../../build/service_full_name/service_full_name.egg-info/requires.txt
+[1.927s] writing top-level names to ../../build/service_full_name/service_full_name.egg-info/top_level.txt
+[1.927s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.986s] reading manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.986s] adding license file 'LICENSE'
+[1.987s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.987s] running build
+[1.987s] running build_py
+[1.988s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build
+[1.988s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib
+[1.988s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name
+[1.988s] copying service_full_name/client_name.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name
+[1.988s] copying service_full_name/service_name.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name
+[1.989s] copying service_full_name/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name
+[1.989s] running install
+[1.996s] running install_lib
+[2.025s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.026s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name/client_name.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.026s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name/service_name.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.026s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build/lib/service_full_name/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[2.026s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name/client_name.py to client_name.cpython-312.pyc
+[2.027s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_name.py to service_name.cpython-312.pyc
+[2.028s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name/__init__.py to __init__.cpython-312.pyc
+[2.028s] running install_data
+[2.028s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/share/ament_index
+[2.029s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/share/ament_index/resource_index
+[2.029s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/share/ament_index/resource_index/packages
+[2.029s] copying resource/service_full_name -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/share/ament_index/resource_index/packages
+[2.029s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/share/service_full_name
+[2.029s] running install_egg_info
+[2.065s] Copying ../../build/service_full_name/service_full_name.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info
+[2.067s] running install_scripts
+[2.325s] Installing client_name script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/service_full_name
+[2.326s] Installing service_name script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/service_full_name
+[2.326s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/install.log'
+[2.365s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/service_full_name' returned '0': AMENT_PREFIX_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/service_full_name/lib/python3.12/site-packages:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/service_full_name/install.log --single-version-externally-managed install_data

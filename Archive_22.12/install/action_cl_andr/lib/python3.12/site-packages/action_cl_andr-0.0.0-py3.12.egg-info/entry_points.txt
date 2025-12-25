@@ -1,0 +1,3 @@
+[console_scripts]
+client = action_cl_andr.cl_a_cli:main
+server = action_cl_andr.cl_a_svr:main

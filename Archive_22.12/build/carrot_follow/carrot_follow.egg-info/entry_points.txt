@@ -1,0 +1,2 @@
+[console_scripts]
+circle_broadcaster = carrot_follow.circle_broadcaster:main

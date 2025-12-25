@@ -1,0 +1,33 @@
+[4.424s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/py_my_package_1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_my_package_1 build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/install.log --single-version-externally-managed install_data
+[4.803s] running egg_info
+[4.803s] creating ../../build/py_my_package_1/py_my_package_1.egg-info
+[4.834s] writing ../../build/py_my_package_1/py_my_package_1.egg-info/PKG-INFO
+[4.835s] writing dependency_links to ../../build/py_my_package_1/py_my_package_1.egg-info/dependency_links.txt
+[4.836s] writing requirements to ../../build/py_my_package_1/py_my_package_1.egg-info/requires.txt
+[4.836s] writing top-level names to ../../build/py_my_package_1/py_my_package_1.egg-info/top_level.txt
+[4.836s] writing manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+[4.900s] reading manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+[4.900s] adding license file 'LICENSE'
+[4.900s] writing manifest file '../../build/py_my_package_1/py_my_package_1.egg-info/SOURCES.txt'
+[4.900s] running build
+[4.901s] running build_py
+[4.901s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build
+[4.901s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib
+[4.901s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1
+[4.902s] copying py_my_package_1/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1
+[4.902s] running install
+[4.910s] running install_lib
+[4.939s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1
+[4.940s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build/lib/py_my_package_1/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1
+[4.944s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1/__init__.py to __init__.cpython-312.pyc
+[4.944s] running install_data
+[4.945s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index
+[4.946s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index
+[4.946s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index/packages
+[4.947s] copying resource/py_my_package_1 -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/ament_index/resource_index/packages
+[4.948s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/share/py_my_package_1
+[4.948s] running install_egg_info
+[4.977s] Copying ../../build/py_my_package_1/py_my_package_1.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages/py_my_package_1-0.0.0-py3.12.egg-info
+[4.977s] running install_scripts
+[5.200s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/install.log'
+[5.280s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/py_my_package_1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/py_my_package_1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_my_package_1 build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/py_my_package_1/install.log --single-version-externally-managed install_data

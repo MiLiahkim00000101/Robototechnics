@@ -1,0 +1,469 @@
+// generated from rosidl_typesupport_cpp/resource/idl__type_support.cpp.em
+// with input from sum_full_name_service:srv/SumFullName.idl
+// generated code does not contain a copyright notice
+
+#include "cstddef"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "sum_full_name_service/srv/detail/sum_full_name__functions.h"
+#include "sum_full_name_service/srv/detail/sum_full_name__struct.hpp"
+#include "rosidl_typesupport_cpp/identifier.hpp"
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+#include "rosidl_typesupport_c/type_support_map.h"
+#include "rosidl_typesupport_cpp/message_type_support_dispatch.hpp"
+#include "rosidl_typesupport_cpp/visibility_control.h"
+#include "rosidl_typesupport_interface/macros.h"
+
+namespace sum_full_name_service
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_cpp
+{
+
+typedef struct _SumFullName_Request_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _SumFullName_Request_type_support_ids_t;
+
+static const _SumFullName_Request_type_support_ids_t _SumFullName_Request_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_cpp",  // ::rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+    "rosidl_typesupport_introspection_cpp",  // ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  }
+};
+
+typedef struct _SumFullName_Request_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _SumFullName_Request_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _SumFullName_Request_type_support_symbol_names_t _SumFullName_Request_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, sum_full_name_service, srv, SumFullName_Request)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, sum_full_name_service, srv, SumFullName_Request)),
+  }
+};
+
+typedef struct _SumFullName_Request_type_support_data_t
+{
+  void * data[2];
+} _SumFullName_Request_type_support_data_t;
+
+static _SumFullName_Request_type_support_data_t _SumFullName_Request_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _SumFullName_Request_message_typesupport_map = {
+  2,
+  "sum_full_name_service",
+  &_SumFullName_Request_message_typesupport_ids.typesupport_identifier[0],
+  &_SumFullName_Request_message_typesupport_symbol_names.symbol_name[0],
+  &_SumFullName_Request_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t SumFullName_Request_message_type_support_handle = {
+  ::rosidl_typesupport_cpp::typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_SumFullName_Request_message_typesupport_map),
+  ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &sum_full_name_service__srv__SumFullName_Request__get_type_hash,
+  &sum_full_name_service__srv__SumFullName_Request__get_type_description,
+  &sum_full_name_service__srv__SumFullName_Request__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_cpp
+
+}  // namespace srv
+
+}  // namespace sum_full_name_service
+
+namespace rosidl_typesupport_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Request>()
+{
+  return &::sum_full_name_service::srv::rosidl_typesupport_cpp::SumFullName_Request_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_cpp, sum_full_name_service, srv, SumFullName_Request)() {
+  return get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Request>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+}  // namespace rosidl_typesupport_cpp
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "sum_full_name_service/srv/detail/sum_full_name__functions.h"
+// already included above
+// #include "sum_full_name_service/srv/detail/sum_full_name__struct.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/identifier.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/message_type_support.hpp"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_cpp/message_type_support_dispatch.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace sum_full_name_service
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_cpp
+{
+
+typedef struct _SumFullName_Response_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _SumFullName_Response_type_support_ids_t;
+
+static const _SumFullName_Response_type_support_ids_t _SumFullName_Response_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_cpp",  // ::rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+    "rosidl_typesupport_introspection_cpp",  // ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  }
+};
+
+typedef struct _SumFullName_Response_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _SumFullName_Response_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _SumFullName_Response_type_support_symbol_names_t _SumFullName_Response_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, sum_full_name_service, srv, SumFullName_Response)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, sum_full_name_service, srv, SumFullName_Response)),
+  }
+};
+
+typedef struct _SumFullName_Response_type_support_data_t
+{
+  void * data[2];
+} _SumFullName_Response_type_support_data_t;
+
+static _SumFullName_Response_type_support_data_t _SumFullName_Response_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _SumFullName_Response_message_typesupport_map = {
+  2,
+  "sum_full_name_service",
+  &_SumFullName_Response_message_typesupport_ids.typesupport_identifier[0],
+  &_SumFullName_Response_message_typesupport_symbol_names.symbol_name[0],
+  &_SumFullName_Response_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t SumFullName_Response_message_type_support_handle = {
+  ::rosidl_typesupport_cpp::typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_SumFullName_Response_message_typesupport_map),
+  ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &sum_full_name_service__srv__SumFullName_Response__get_type_hash,
+  &sum_full_name_service__srv__SumFullName_Response__get_type_description,
+  &sum_full_name_service__srv__SumFullName_Response__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_cpp
+
+}  // namespace srv
+
+}  // namespace sum_full_name_service
+
+namespace rosidl_typesupport_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Response>()
+{
+  return &::sum_full_name_service::srv::rosidl_typesupport_cpp::SumFullName_Response_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_cpp, sum_full_name_service, srv, SumFullName_Response)() {
+  return get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Response>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+}  // namespace rosidl_typesupport_cpp
+
+// already included above
+// #include "cstddef"
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+// already included above
+// #include "sum_full_name_service/srv/detail/sum_full_name__functions.h"
+// already included above
+// #include "sum_full_name_service/srv/detail/sum_full_name__struct.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/identifier.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/message_type_support.hpp"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+// already included above
+// #include "rosidl_typesupport_cpp/message_type_support_dispatch.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace sum_full_name_service
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_cpp
+{
+
+typedef struct _SumFullName_Event_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _SumFullName_Event_type_support_ids_t;
+
+static const _SumFullName_Event_type_support_ids_t _SumFullName_Event_message_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_cpp",  // ::rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+    "rosidl_typesupport_introspection_cpp",  // ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  }
+};
+
+typedef struct _SumFullName_Event_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _SumFullName_Event_type_support_symbol_names_t;
+
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _SumFullName_Event_type_support_symbol_names_t _SumFullName_Event_message_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, sum_full_name_service, srv, SumFullName_Event)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, sum_full_name_service, srv, SumFullName_Event)),
+  }
+};
+
+typedef struct _SumFullName_Event_type_support_data_t
+{
+  void * data[2];
+} _SumFullName_Event_type_support_data_t;
+
+static _SumFullName_Event_type_support_data_t _SumFullName_Event_message_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _SumFullName_Event_message_typesupport_map = {
+  2,
+  "sum_full_name_service",
+  &_SumFullName_Event_message_typesupport_ids.typesupport_identifier[0],
+  &_SumFullName_Event_message_typesupport_symbol_names.symbol_name[0],
+  &_SumFullName_Event_message_typesupport_data.data[0],
+};
+
+static const rosidl_message_type_support_t SumFullName_Event_message_type_support_handle = {
+  ::rosidl_typesupport_cpp::typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_SumFullName_Event_message_typesupport_map),
+  ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &sum_full_name_service__srv__SumFullName_Event__get_type_hash,
+  &sum_full_name_service__srv__SumFullName_Event__get_type_description,
+  &sum_full_name_service__srv__SumFullName_Event__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_cpp
+
+}  // namespace srv
+
+}  // namespace sum_full_name_service
+
+namespace rosidl_typesupport_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Event>()
+{
+  return &::sum_full_name_service::srv::rosidl_typesupport_cpp::SumFullName_Event_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_cpp, sum_full_name_service, srv, SumFullName_Event)() {
+  return get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Event>();
+}
+
+#ifdef __cplusplus
+}
+#endif
+}  // namespace rosidl_typesupport_cpp
+
+// already included above
+// #include "cstddef"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+#include "rosidl_typesupport_cpp/service_type_support.hpp"
+// already included above
+// #include "sum_full_name_service/srv/detail/sum_full_name__struct.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/identifier.hpp"
+// already included above
+// #include "rosidl_typesupport_c/type_support_map.h"
+#include "rosidl_typesupport_cpp/service_type_support_dispatch.hpp"
+// already included above
+// #include "rosidl_typesupport_cpp/visibility_control.h"
+// already included above
+// #include "rosidl_typesupport_interface/macros.h"
+
+namespace sum_full_name_service
+{
+
+namespace srv
+{
+
+namespace rosidl_typesupport_cpp
+{
+
+typedef struct _SumFullName_type_support_ids_t
+{
+  const char * typesupport_identifier[2];
+} _SumFullName_type_support_ids_t;
+
+static const _SumFullName_type_support_ids_t _SumFullName_service_typesupport_ids = {
+  {
+    "rosidl_typesupport_fastrtps_cpp",  // ::rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+    "rosidl_typesupport_introspection_cpp",  // ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  }
+};
+
+typedef struct _SumFullName_type_support_symbol_names_t
+{
+  const char * symbol_name[2];
+} _SumFullName_type_support_symbol_names_t;
+#define STRINGIFY_(s) #s
+#define STRINGIFY(s) STRINGIFY_(s)
+
+static const _SumFullName_type_support_symbol_names_t _SumFullName_service_typesupport_symbol_names = {
+  {
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, sum_full_name_service, srv, SumFullName)),
+    STRINGIFY(ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, sum_full_name_service, srv, SumFullName)),
+  }
+};
+
+typedef struct _SumFullName_type_support_data_t
+{
+  void * data[2];
+} _SumFullName_type_support_data_t;
+
+static _SumFullName_type_support_data_t _SumFullName_service_typesupport_data = {
+  {
+    0,  // will store the shared library later
+    0,  // will store the shared library later
+  }
+};
+
+static const type_support_map_t _SumFullName_service_typesupport_map = {
+  2,
+  "sum_full_name_service",
+  &_SumFullName_service_typesupport_ids.typesupport_identifier[0],
+  &_SumFullName_service_typesupport_symbol_names.symbol_name[0],
+  &_SumFullName_service_typesupport_data.data[0],
+};
+
+static const rosidl_service_type_support_t SumFullName_service_type_support_handle = {
+  ::rosidl_typesupport_cpp::typesupport_identifier,
+  reinterpret_cast<const type_support_map_t *>(&_SumFullName_service_typesupport_map),
+  ::rosidl_typesupport_cpp::get_service_typesupport_handle_function,
+  ::rosidl_typesupport_cpp::get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Request>(),
+  ::rosidl_typesupport_cpp::get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Response>(),
+  ::rosidl_typesupport_cpp::get_message_type_support_handle<sum_full_name_service::srv::SumFullName_Event>(),
+  &::rosidl_typesupport_cpp::service_create_event_message<sum_full_name_service::srv::SumFullName>,
+  &::rosidl_typesupport_cpp::service_destroy_event_message<sum_full_name_service::srv::SumFullName>,
+  &sum_full_name_service__srv__SumFullName__get_type_hash,
+  &sum_full_name_service__srv__SumFullName__get_type_description,
+  &sum_full_name_service__srv__SumFullName__get_type_description_sources,
+};
+
+}  // namespace rosidl_typesupport_cpp
+
+}  // namespace srv
+
+}  // namespace sum_full_name_service
+
+namespace rosidl_typesupport_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_service_type_support_t *
+get_service_type_support_handle<sum_full_name_service::srv::SumFullName>()
+{
+  return &::sum_full_name_service::srv::rosidl_typesupport_cpp::SumFullName_service_type_support_handle;
+}
+
+}  // namespace rosidl_typesupport_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_CPP_PUBLIC
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_cpp, sum_full_name_service, srv, SumFullName)() {
+  return ::rosidl_typesupport_cpp::get_service_type_support_handle<sum_full_name_service::srv::SumFullName>();
+}
+
+#ifdef __cplusplus
+}
+#endif

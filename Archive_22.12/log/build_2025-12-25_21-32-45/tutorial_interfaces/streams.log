@@ -1,0 +1,325 @@
+[0.090s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces
+[2.964s] -- The C compiler identification is GNU 13.3.0
+[2.964s] -- The CXX compiler identification is GNU 13.3.0
+[2.965s] -- Detecting C compiler ABI info
+[2.965s] -- Detecting C compiler ABI info - done
+[2.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.965s] -- Detecting C compile features
+[2.965s] -- Detecting C compile features - done
+[2.965s] -- Detecting CXX compiler ABI info
+[2.966s] -- Detecting CXX compiler ABI info - done
+[2.966s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.966s] -- Detecting CXX compile features
+[2.966s] -- Detecting CXX compile features - done
+[2.966s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.966s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.966s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.966s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.967s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.967s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.967s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.967s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.967s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.967s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.511s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.714s] -- Found PythonExtra: /usr/bin/python3  
+[5.305s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.527s] -- Configured cppcheck include dirs: 
+[5.527s] -- Configured cppcheck exclude dirs and/or files: 
+[5.538s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.538s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.560s] -- Added test 'lint_cmake' to check CMake code style
+[5.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.656s] -- Added test 'uncrustify' to check C / C++ code style
+[5.656s] -- Configured uncrustify additional arguments: 
+[5.667s] -- Added test 'xmllint' to check XML markup files
+[5.675s] -- Configuring done (5.6s)
+[5.740s] -- Generating done (0.1s)
+[5.758s] -- Build files have been written to: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces
+[5.772s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces
+[5.774s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces -- -j28 -l28
+[5.848s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.858s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[6.143s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[6.155s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.167s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.176s] running egg_info
+[6.177s] creating tutorial_interfaces.egg-info
+[6.207s] writing tutorial_interfaces.egg-info/PKG-INFO
+[6.207s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[6.207s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[6.208s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[6.296s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[6.297s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[6.331s] [  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[6.644s] [  5%] Built target tutorial_interfaces__cpp
+[6.714s] [  7%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[6.714s] [ 11%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[6.714s] [ 11%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[6.715s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o[0m
+[6.715s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[6.715s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[6.718s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[6.719s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[6.720s] [ 22%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[6.814s] [ 24%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[6.862s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[6.876s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.876s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.879s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.880s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.880s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.881s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.252s] [ 37%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[7.253s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[7.253s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[7.312s] [ 42%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[7.374s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[7.376s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[7.376s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[7.376s] [ 48%] Built target tutorial_interfaces__rosidl_typesupport_c
+[7.462s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[7.462s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[7.463s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[7.494s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[7.497s] [ 57%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[7.497s] [ 59%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[7.532s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[7.533s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[7.535s] [ 64%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[7.587s] [ 66%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.627s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[7.628s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[7.631s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[7.644s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[8.273s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[8.283s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.283s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.352s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[8.371s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[8.384s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[8.789s] [ 79%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.885s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.913s] [ 79%] Built target tutorial_interfaces
+[8.938s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.577s] [ 81%] Built target tutorial_interfaces__py
+[9.604s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[9.605s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[9.605s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[9.862s] [ 88%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[9.945s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[9.972s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.973s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.978s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.124s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[10.145s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[10.151s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.168s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[10.189s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[10.195s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[10.211s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces -- -j28 -l28
+[10.214s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces
+[10.225s] -- Install configuration: ""
+[10.226s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[10.226s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[10.226s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[10.227s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[10.227s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.228s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.228s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[10.228s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.229s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[10.229s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[10.229s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[10.230s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[10.230s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[10.230s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[10.230s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.231s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[10.231s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[10.231s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.232s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.232s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[10.232s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[10.232s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[10.233s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[10.233s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[10.233s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[10.234s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[10.234s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[10.234s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[10.235s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[10.235s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[10.235s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[10.236s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[10.236s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[10.237s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[10.237s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[10.238s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.238s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.238s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.238s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[10.238s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.238s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.239s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.239s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[10.239s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[10.239s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.239s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.239s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.240s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.240s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[10.240s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.240s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[10.240s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[10.240s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[10.240s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[10.241s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.241s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.241s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[10.241s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[10.241s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.241s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[10.242s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[10.243s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.243s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.243s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.243s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[10.243s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[10.243s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.244s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.244s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.244s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[10.244s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[10.244s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[10.244s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.246s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.247s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.247s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.247s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.247s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[10.247s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[10.248s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.248s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.248s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.248s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[10.249s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[10.249s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[10.249s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[10.249s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[10.250s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.250s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[10.250s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[10.251s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.251s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.253s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.253s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[10.253s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[10.253s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.254s] -- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.254s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[10.254s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[10.254s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[10.254s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[10.255s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.255s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.255s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[10.255s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.256s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[10.256s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[10.256s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[10.256s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[10.257s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.257s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[10.257s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.258s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[10.258s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[10.258s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[10.259s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[10.259s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[10.259s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[10.259s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[10.260s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[10.260s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[10.260s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[10.260s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[10.261s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[10.261s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[10.261s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.262s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[10.262s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.262s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.262s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.334s] Listing '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[10.334s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[10.335s] Listing '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[10.335s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[10.335s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[10.335s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py'...
+[10.335s] Listing '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[10.336s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[10.336s] Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[10.342s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.343s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.344s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.344s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[10.344s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[10.345s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[10.345s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[10.346s] -- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[10.346s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[10.346s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[10.347s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[10.347s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[10.347s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[10.347s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[10.347s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[10.348s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[10.348s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[10.349s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[10.349s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[10.349s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[10.349s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[10.350s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[10.350s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[10.350s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[10.351s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[10.351s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[10.351s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[10.352s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.352s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.352s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.352s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[10.353s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.353s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.353s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.353s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.354s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[10.354s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.354s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.355s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.355s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[10.355s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.355s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[10.356s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.356s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.356s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.356s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.357s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.357s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.357s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.357s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.358s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[10.358s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[10.359s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[10.363s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/tutorial_interfaces

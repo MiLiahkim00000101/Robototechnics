@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/sum_full_name_service__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "sum_full_name_service::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "sum_full_name_service__py::@88faaffaa5bd821ac30f",
+	"name" : "sum_full_name_service__py",
+	"paths" : 
+	{
+		"build" : "sum_full_name_service__py",
+		"source" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/sum_full_name_service__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/sum_full_name_service__py/CMakeFiles/sum_full_name_service__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/sum_full_name_service__py/CMakeFiles/sum_full_name_service__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,15 @@
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/package_run_dependencies/ex09_srv_msg
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/parent_prefix_path/ex09_srv_msg
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/ament_prefix_path.sh
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/ament_prefix_path.dsv
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/path.sh
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/path.dsv
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.bash
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.sh
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.zsh
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.dsv
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/package.dsv
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/packages/ex09_srv_msg
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/cmake/ex09_srv_msgConfig.cmake
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/cmake/ex09_srv_msgConfig-version.cmake
+/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/package.xml

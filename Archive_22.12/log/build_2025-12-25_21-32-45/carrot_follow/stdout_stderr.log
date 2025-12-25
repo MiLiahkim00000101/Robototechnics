@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/carrot_follow/carrot_follow.egg-info
+writing ../../build/carrot_follow/carrot_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/carrot_follow/carrot_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/carrot_follow/carrot_follow.egg-info/entry_points.txt
+writing requirements to ../../build/carrot_follow/carrot_follow.egg-info/requires.txt
+writing top-level names to ../../build/carrot_follow/carrot_follow.egg-info/top_level.txt
+writing manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+reading manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+copying carrot_follow/circle_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+copying carrot_follow/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+running install
+running install_lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow/circle_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow/circle_broadcaster.py to circle_broadcaster.cpython-312.pyc
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index/packages
+copying resource/carrot_follow -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+copying launch/turtle_tf2_circle.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+copying launch/turtle_default.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+running install_egg_info
+Copying ../../build/carrot_follow/carrot_follow.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow-0.0.0-py3.12.egg-info
+running install_scripts
+Installing circle_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/carrot_follow
+writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/install.log'

@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info
+writing ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/PKG-INFO
+writing dependency_links to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/dependency_links.txt
+writing entry points to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/entry_points.txt
+writing requirements to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/requires.txt
+writing top-level names to ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/top_level.txt
+writing manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+reading manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+copying Cleaning_act_cl_svr/cleaning_action_client.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+copying Cleaning_act_cl_svr/cleaning_action_server.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+copying Cleaning_act_cl_svr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr
+running install
+running install_lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/cleaning_action_client.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/cleaning_action_server.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/build/lib/Cleaning_act_cl_svr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/cleaning_action_client.py to cleaning_action_client.cpython-312.pyc
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/cleaning_action_server.py to cleaning_action_server.cpython-312.pyc
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index/packages
+copying resource/Cleaning_act_cl_svr -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/ament_index/resource_index/packages
+copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/share/Cleaning_act_cl_svr
+running install_egg_info
+Copying ../../build/Cleaning_act_cl_svr/Cleaning_act_cl_svr.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/python3.12/site-packages/Cleaning_act_cl_svr-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/Cleaning_act_cl_svr
+Installing server script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/Cleaning_act_cl_svr/lib/Cleaning_act_cl_svr
+writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/Cleaning_act_cl_svr/install.log'

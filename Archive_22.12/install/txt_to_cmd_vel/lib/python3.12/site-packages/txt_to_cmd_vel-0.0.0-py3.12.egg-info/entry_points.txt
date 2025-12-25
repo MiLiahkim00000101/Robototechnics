@@ -1,0 +1,2 @@
+[console_scripts]
+txt_to_cmd_vel = txt_to_cmd_vel.txt_to_cmd_vel_node:main

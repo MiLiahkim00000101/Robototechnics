@@ -1,0 +1,38 @@
+[4.401s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/txt_to_cmd_vel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/txt_to_cmd_vel build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/install.log --single-version-externally-managed install_data
+[4.786s] running egg_info
+[4.786s] creating ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info
+[4.815s] writing ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/PKG-INFO
+[4.816s] writing dependency_links to ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/dependency_links.txt
+[4.816s] writing entry points to ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/entry_points.txt
+[4.817s] writing requirements to ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/requires.txt
+[4.817s] writing top-level names to ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/top_level.txt
+[4.817s] writing manifest file '../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/SOURCES.txt'
+[4.880s] reading manifest file '../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/SOURCES.txt'
+[4.880s] adding license file 'LICENSE'
+[4.881s] writing manifest file '../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/SOURCES.txt'
+[4.882s] running build
+[4.882s] running build_py
+[4.882s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build
+[4.883s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib
+[4.883s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib/txt_to_cmd_vel
+[4.883s] copying txt_to_cmd_vel/txt_to_cmd_vel_node.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib/txt_to_cmd_vel
+[4.884s] copying txt_to_cmd_vel/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib/txt_to_cmd_vel
+[4.884s] running install
+[4.892s] running install_lib
+[4.916s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel
+[4.917s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib/txt_to_cmd_vel/txt_to_cmd_vel_node.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel
+[4.917s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build/lib/txt_to_cmd_vel/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel
+[4.918s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel/txt_to_cmd_vel_node.py to txt_to_cmd_vel_node.cpython-312.pyc
+[4.918s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel/__init__.py to __init__.cpython-312.pyc
+[4.919s] running install_data
+[4.919s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/share/ament_index
+[4.920s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/share/ament_index/resource_index
+[4.921s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/share/ament_index/resource_index/packages
+[4.921s] copying resource/txt_to_cmd_vel -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/share/ament_index/resource_index/packages
+[4.922s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/share/txt_to_cmd_vel
+[4.922s] running install_egg_info
+[4.960s] Copying ../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages/txt_to_cmd_vel-0.0.0-py3.12.egg-info
+[4.961s] running install_scripts
+[5.157s] Installing txt_to_cmd_vel script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/txt_to_cmd_vel
+[5.158s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/install.log'
+[5.195s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/txt_to_cmd_vel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/txt_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/txt_to_cmd_vel build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/txt_to_cmd_vel/install.log --single-version-externally-managed install_data

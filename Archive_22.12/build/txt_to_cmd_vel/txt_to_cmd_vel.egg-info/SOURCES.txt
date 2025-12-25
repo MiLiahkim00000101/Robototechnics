@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/PKG-INFO
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/SOURCES.txt
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/dependency_links.txt
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/entry_points.txt
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/requires.txt
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/top_level.txt
+../../build/txt_to_cmd_vel/txt_to_cmd_vel.egg-info/zip-safe
+resource/txt_to_cmd_vel
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+txt_to_cmd_vel/__init__.py
+txt_to_cmd_vel/txt_to_cmd_vel_node.py

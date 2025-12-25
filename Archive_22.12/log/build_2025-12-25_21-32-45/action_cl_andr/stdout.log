@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/action_cl_andr/action_cl_andr.egg-info
+writing ../../build/action_cl_andr/action_cl_andr.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_cl_andr/action_cl_andr.egg-info/dependency_links.txt
+writing entry points to ../../build/action_cl_andr/action_cl_andr.egg-info/entry_points.txt
+writing requirements to ../../build/action_cl_andr/action_cl_andr.egg-info/requires.txt
+writing top-level names to ../../build/action_cl_andr/action_cl_andr.egg-info/top_level.txt
+writing manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+reading manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+writing manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+copying action_cl_andr/cl_a_cli.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+copying action_cl_andr/cl_a_svr.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+copying action_cl_andr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+running install
+running install_lib
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/cl_a_cli.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/cl_a_svr.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/cl_a_cli.py to cl_a_cli.cpython-312.pyc
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/cl_a_svr.py to cl_a_svr.cpython-312.pyc
+byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index
+creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index/packages
+copying resource/action_cl_andr -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index/packages
+copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/action_cl_andr
+running install_egg_info
+Copying ../../build/action_cl_andr/action_cl_andr.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/action_cl_andr
+Installing server script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/action_cl_andr
+writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/install.log'

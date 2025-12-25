@@ -1,0 +1,40 @@
+[4.440s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/carrot_follow': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrot_follow build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/install.log --single-version-externally-managed install_data
+[4.823s] running egg_info
+[4.823s] creating ../../build/carrot_follow/carrot_follow.egg-info
+[4.852s] writing ../../build/carrot_follow/carrot_follow.egg-info/PKG-INFO
+[4.853s] writing dependency_links to ../../build/carrot_follow/carrot_follow.egg-info/dependency_links.txt
+[4.853s] writing entry points to ../../build/carrot_follow/carrot_follow.egg-info/entry_points.txt
+[4.854s] writing requirements to ../../build/carrot_follow/carrot_follow.egg-info/requires.txt
+[4.854s] writing top-level names to ../../build/carrot_follow/carrot_follow.egg-info/top_level.txt
+[4.855s] writing manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+[4.913s] reading manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+[4.915s] writing manifest file '../../build/carrot_follow/carrot_follow.egg-info/SOURCES.txt'
+[4.915s] running build
+[4.916s] running build_py
+[4.916s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build
+[4.917s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib
+[4.917s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+[4.918s] copying carrot_follow/circle_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+[4.918s] copying carrot_follow/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow
+[4.920s] running install
+[4.935s] running install_lib
+[4.979s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+[4.979s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow/circle_broadcaster.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+[4.980s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build/lib/carrot_follow/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow
+[4.981s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow/circle_broadcaster.py to circle_broadcaster.cpython-312.pyc
+[4.983s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow/__init__.py to __init__.cpython-312.pyc
+[4.985s] running install_data
+[4.985s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index
+[4.987s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index
+[4.987s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index/packages
+[4.988s] copying resource/carrot_follow -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/ament_index/resource_index/packages
+[4.989s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow
+[4.989s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+[4.990s] copying launch/turtle_tf2_circle.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+[4.990s] copying launch/turtle_default.launch.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/share/carrot_follow/launch
+[4.991s] running install_egg_info
+[5.018s] Copying ../../build/carrot_follow/carrot_follow.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages/carrot_follow-0.0.0-py3.12.egg-info
+[5.020s] running install_scripts
+[5.246s] Installing circle_broadcaster script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/carrot_follow
+[5.247s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/install.log'
+[5.333s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/carrot_follow' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/carrot_follow/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrot_follow build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/carrot_follow/install.log --single-version-externally-managed install_data

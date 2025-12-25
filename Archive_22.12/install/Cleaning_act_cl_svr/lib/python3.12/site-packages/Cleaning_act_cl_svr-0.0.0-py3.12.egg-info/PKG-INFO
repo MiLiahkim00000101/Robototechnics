@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Cleaning-act-cl-svr
+Version: 0.0.0
+Summary: Cleaning Robot simulation with turtlesim
+Maintainer: ms
+Maintainer-email: mihas05@mail.ru
+License: Apache-2.0
+Provides-Extra: test
+License-File: LICENSE

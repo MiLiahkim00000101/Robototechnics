@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from sum_full_name_service/srv/SumFullName.srv
+// generated code does not contain a copyright notice
+
+
+module sum_full_name_service {
+  module srv {
+    struct SumFullName_Request {
+      string f_name;
+
+      string s_name;
+
+      string patronymic;
+    };
+    struct SumFullName_Response {
+      string full_name;
+    };
+  };
+};

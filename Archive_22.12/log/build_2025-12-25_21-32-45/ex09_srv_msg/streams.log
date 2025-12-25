@@ -1,0 +1,42 @@
+[1.138s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/ex09_srv_msg -DCMAKE_INSTALL_PREFIX=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg
+[2.934s] -- The C compiler identification is GNU 13.3.0
+[2.934s] -- The CXX compiler identification is GNU 13.3.0
+[2.934s] -- Detecting C compiler ABI info
+[2.934s] -- Detecting C compiler ABI info - done
+[2.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.934s] -- Detecting C compile features
+[2.934s] -- Detecting C compile features - done
+[2.934s] -- Detecting CXX compiler ABI info
+[2.935s] -- Detecting CXX compiler ABI info - done
+[2.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.935s] -- Detecting CXX compile features
+[2.935s] -- Detecting CXX compile features - done
+[2.935s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.936s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.936s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.936s] -- Added test 'lint_cmake' to check CMake code style
+[2.936s] -- Added test 'xmllint' to check XML markup files
+[2.937s] -- Configuring done (1.2s)
+[2.937s] -- Generating done (0.0s)
+[2.937s] -- Build files have been written to: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg
+[3.309s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/ex09_srv_msg -DCMAKE_INSTALL_PREFIX=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg
+[3.312s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg -- -j28 -l28
+[3.386s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg -- -j28 -l28
+[3.406s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg
+[3.418s] -- Install configuration: ""
+[3.419s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/package_run_dependencies/ex09_srv_msg
+[3.419s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/parent_prefix_path/ex09_srv_msg
+[3.420s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/ament_prefix_path.sh
+[3.420s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/ament_prefix_path.dsv
+[3.420s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/path.sh
+[3.421s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/environment/path.dsv
+[3.421s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.bash
+[3.421s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.sh
+[3.422s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.zsh
+[3.422s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/local_setup.dsv
+[3.422s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/package.dsv
+[3.423s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ament_index/resource_index/packages/ex09_srv_msg
+[3.423s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/cmake/ex09_srv_msgConfig.cmake
+[3.423s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/cmake/ex09_srv_msgConfig-version.cmake
+[3.423s] -- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/ex09_srv_msg/share/ex09_srv_msg/package.xml
+[3.426s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/ex09_srv_msg

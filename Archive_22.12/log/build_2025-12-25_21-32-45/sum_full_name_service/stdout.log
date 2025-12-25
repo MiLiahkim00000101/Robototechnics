@@ -1,0 +1,236 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/sum_full_name_service
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_sum_full_name_service
+[  2%] Built target sum_full_name_service__rosidl_generator_type_description
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating sum_full_name_service.egg-info
+writing sum_full_name_service.egg-info/PKG-INFO
+writing dependency_links to sum_full_name_service.egg-info/dependency_links.txt
+writing top-level names to sum_full_name_service.egg-info/top_level.txt
+writing manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+reading manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+writing manifest file 'sum_full_name_service.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_sum_full_name_service_egg
+[ 14%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_c.dir/rosidl_generator_c/sum_full_name_service/srv/detail/sum_full_name__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_c.dir/rosidl_generator_c/sum_full_name_service/srv/detail/sum_full_name__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_c.dir/rosidl_generator_c/sum_full_name_service/srv/detail/sum_full_name__type_support.c.o[0m
+[ 17%] Built target sum_full_name_service__cpp
+[ 20%] [32m[1mLinking C shared library libsum_full_name_service__rosidl_generator_c.so[0m
+[ 20%] Built target sum_full_name_service__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/sum_full_name_service/srv/sum_full_name__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sum_full_name_service/srv/sum_full_name__type_support.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_c.so[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sum_full_name_service/srv/detail/sum_full_name__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sum_full_name_service/srv/detail/dds_fastrtps/sum_full_name__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sum_full_name_service/srv/detail/sum_full_name__type_support.c.o[0m
+[ 55%] Built target sum_full_name_service__rosidl_typesupport_c
+[ 58%] [32m[1mLinking C shared library libsum_full_name_service__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target sum_full_name_service__rosidl_typesupport_introspection_c
+[ 61%] [32mBuilding CXX object CMakeFiles/sum_full_name_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sum_full_name_service/srv/detail/sum_full_name__type_support_c.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target sum_full_name_service__rosidl_typesupport_introspection_cpp
+[ 67%] Built target sum_full_name_service__rosidl_typesupport_cpp
+[ 70%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] Built target sum_full_name_service__rosidl_typesupport_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX shared library libsum_full_name_service__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target sum_full_name_service__rosidl_typesupport_fastrtps_c
+[ 73%] Built target sum_full_name_service
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target sum_full_name_service__py
+[ 79%] [32mBuilding C object CMakeFiles/sum_full_name_service__rosidl_generator_py.dir/rosidl_generator_py/sum_full_name_service/srv/_sum_full_name_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libsum_full_name_service__rosidl_generator_py.so[0m
+[ 82%] Built target sum_full_name_service__rosidl_generator_py
+[ 91%] [32mBuilding C object CMakeFiles/sum_full_name_service_s__rosidl_typesupport_c.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sum_full_name_service_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target sum_full_name_service_s__rosidl_typesupport_c
+[100%] Built target sum_full_name_service_s__rosidl_typesupport_introspection_c
+[100%] Built target sum_full_name_service_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/ament_index/resource_index/rosidl_interfaces/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName.json
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/sum_full_name.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__struct.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__functions.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__description.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__functions.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/library_path.sh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/library_path.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.c
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/sum_full_name.hpp
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__struct.hpp
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__builder.hpp
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__traits.hpp
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.hpp
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/dds_fastrtps
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv
+-- Up-to-date: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__type_support.cpp
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/include/sum_full_name_service/sum_full_name_service/srv/detail/sum_full_name__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/pythonpath.sh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/pythonpath.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service-0.0.0-py3.12.egg-info
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv/_sum_full_name_s.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv/_sum_full_name.py
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv/__init__.py
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.so
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/_sum_full_name_service_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/__init__.py
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.so
+Listing '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service'...
+Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/__init__.py'...
+Listing '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv'...
+Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv/__init__.py'...
+Compiling '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/srv/_sum_full_name.py'...
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/python3.12/site-packages/sum_full_name_service/sum_full_name_service_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/lib/libsum_full_name_service__rosidl_generator_py.so" to ""
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName.idl
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/srv/SumFullName.srv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/ament_index/resource_index/package_run_dependencies/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/ament_index/resource_index/parent_prefix_path/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/ament_prefix_path.sh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/ament_prefix_path.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/path.sh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/environment/path.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/local_setup.bash
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/local_setup.sh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/local_setup.zsh
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/local_setup.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/package.dsv
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/ament_index/resource_index/packages/sum_full_name_service
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_cppExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_service__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_pyExport.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/export_sum_full_name_service__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_serviceConfig.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/cmake/sum_full_name_serviceConfig-version.cmake
+-- Installing: /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/sum_full_name_service/share/sum_full_name_service/package.xml

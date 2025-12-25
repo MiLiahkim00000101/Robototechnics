@@ -1,0 +1,41 @@
+[4.428s] Invoking command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/action_cl_andr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_cl_andr build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/install.log --single-version-externally-managed install_data
+[4.838s] running egg_info
+[4.839s] creating ../../build/action_cl_andr/action_cl_andr.egg-info
+[4.870s] writing ../../build/action_cl_andr/action_cl_andr.egg-info/PKG-INFO
+[4.871s] writing dependency_links to ../../build/action_cl_andr/action_cl_andr.egg-info/dependency_links.txt
+[4.872s] writing entry points to ../../build/action_cl_andr/action_cl_andr.egg-info/entry_points.txt
+[4.873s] writing requirements to ../../build/action_cl_andr/action_cl_andr.egg-info/requires.txt
+[4.873s] writing top-level names to ../../build/action_cl_andr/action_cl_andr.egg-info/top_level.txt
+[4.874s] writing manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+[4.932s] reading manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+[4.935s] writing manifest file '../../build/action_cl_andr/action_cl_andr.egg-info/SOURCES.txt'
+[4.936s] running build
+[4.936s] running build_py
+[4.937s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build
+[4.937s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib
+[4.937s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+[4.937s] copying action_cl_andr/cl_a_cli.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+[4.938s] copying action_cl_andr/cl_a_svr.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+[4.938s] copying action_cl_andr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr
+[4.940s] running install
+[4.950s] running install_lib
+[5.009s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+[5.009s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/cl_a_cli.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+[5.010s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/cl_a_svr.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+[5.010s] copying /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build/lib/action_cl_andr/__init__.py -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr
+[5.012s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/cl_a_cli.py to cl_a_cli.cpython-312.pyc
+[5.015s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/cl_a_svr.py to cl_a_svr.cpython-312.pyc
+[5.017s] byte-compiling /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr/__init__.py to __init__.cpython-312.pyc
+[5.017s] running install_data
+[5.017s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index
+[5.018s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index
+[5.018s] creating /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index/packages
+[5.018s] copying resource/action_cl_andr -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/ament_index/resource_index/packages
+[5.019s] copying package.xml -> /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/share/action_cl_andr
+[5.019s] running install_egg_info
+[5.063s] Copying ../../build/action_cl_andr/action_cl_andr.egg-info to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages/action_cl_andr-0.0.0-py3.12.egg-info
+[5.065s] running install_scripts
+[5.331s] Installing client script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/action_cl_andr
+[5.332s] Installing server script to /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/action_cl_andr
+[5.333s] writing list of installed files to '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/install.log'
+[5.374s] Invoked command in '/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/src/action_cl_andr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/install/action_cl_andr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_cl_andr build --build-base /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/build install --record /home/ms/Documents/NSU2025_late/Robototechnics/Archive_22.12/build/action_cl_andr/install.log --single-version-externally-managed install_data
