@@ -1,0 +1,288 @@
+<?xml version="1.0" ?>
+<robot name='robot' xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find my_robot)/urdf/robot.gazebo.xacro" />
+  <!--xacro:include filename="$(find robot_description)/urdf/lidar.urdf.xacro" /-->
+  <!--xacro:include filename="$(find robot_description)/urdf/depth.urdf.xacro" /-->
+
+  <xacro:property name="chassis_length" value="0.15"/>
+  <xacro:property name="chassis_width" value="0.13"/>
+  <xacro:property name="chassis_height" value="0.07"/>
+
+  <xacro:property name="wheel_radius" value="0.033"/>
+  <xacro:property name="wheel_thickness" value="0.026"/>
+  <xacro:property name="wheel_mass" value="0.05"/>
+
+  <xacro:property name="wheel_offset_x" value="0.1"/>
+  <xacro:property name="wheel_offset_y" value="0.07"/>
+  <xacro:property name="wheel_offset_z" value="0.01"/>
+
+  <xacro:property name="caster_wheel_radius" value="0.02"/>
+  <xacro:property name="caster_wheel_mass" value="0.01"/>
+  <xacro:property name="caster_wheel_offset_x" value="0.005"/>
+  <xacro:property name="caster_wheel_offset_z" value="0.005"/>
+  <xacro:property name="mass" value="1.0"/>
+
+  <!-- Параметры для шляпы -->
+  <xacro:property name="hat_brim_radius" value="0.05"/>    <!-- Радиус полей шляпы -->
+  <xacro:property name="hat_brim_height" value="0.01"/>    <!-- Толщина полей -->
+  <xacro:property name="hat_crown_radius" value="0.025"/>  <!-- Радиус тульи -->
+  <xacro:property name="hat_crown_height" value="0.06"/>   <!-- Высота тульи -->
+  <xacro:property name="hat_offset_z" value="0.1"/>       <!-- Высота крепления над base_link -->
+  <xacro:property name="hat_mass" value="0.05"/>           <!-- Масса шляпы -->
+
+  <!-- Материалы -->
+  <material name="Cyan">
+    <color rgba="0 1.0 1.0 1.0"/>
+  </material>
+
+  <material name="Brown">
+    <color rgba="0.5 0.25 0.0 1.0"/>    
+  </material>
+
+  <material name="Gray">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+
+  <material name="Black">
+    <color rgba="0.1 0.1 0.1 1.0"/>
+  </material>
+
+  <material name="White">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+  <!-- Основные ссылки робота -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+  </link>
+
+  <link name="base_footprint">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+  </link>
+
+  <!-- Соединения основания -->
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0 0 -0.138" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="${-wheel_offset_x} 0 ${-wheel_offset_z}"/>
+  </joint>
+
+  <!-- Шасси -->
+  <link name='chassis'>
+    <inertial>
+      <origin xyz="${chassis_length/2} 0 ${chassis_height/2}" rpy="0 0 0"/>
+      <mass value="${mass}" />
+      <inertia ixx="${(1/12) * mass * (chassis_width*chassis_width+chassis_height*chassis_height)}" ixy="0.0" ixz="0.0"
+         iyy="${(1/12) * mass * (chassis_length*chassis_length+chassis_height*chassis_height)}" iyz="0.0"
+         izz="${(1/12) * mass * (chassis_length*chassis_length+chassis_width*chassis_width)}" />
+    </inertial>
+    <visual>
+      <origin xyz="${chassis_length/2} 0 ${chassis_height/2}"/>
+      <geometry>
+        <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+      </geometry>
+      <material name="Cyan"/>
+    </visual>
+    <collision>
+      <origin xyz="${chassis_length/2} 0 ${chassis_height/2}"/>
+      <geometry>
+        <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Левое колесо -->
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 ${wheel_offset_y} 0" rpy="-${pi/2} 0 0" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="left_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${wheel_mass}" />
+      <inertia ixx="${(1/12) * wheel_mass * (3*wheel_radius*wheel_radius + wheel_thickness*wheel_thickness)}" ixy="0.0" ixz="0.0"
+         iyy="${(1/12) * wheel_mass * (3*wheel_radius*wheel_radius + wheel_thickness*wheel_thickness)}" iyz="0.0"
+         izz="${(1/2) * wheel_mass * (wheel_radius*wheel_radius)}" />
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+      </geometry>
+      <material name="Gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="${wheel_radius}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Правое колесо -->
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 ${-wheel_offset_y} 0" rpy="${pi/2} 0 0" />
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <link name="right_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${wheel_mass}" />
+      <inertia ixx="${(1/12) * wheel_mass * (3*wheel_radius*wheel_radius + wheel_thickness*wheel_thickness)}" ixy="0.0" ixz="0.0"
+         iyy="${(1/12) * wheel_mass * (3*wheel_radius*wheel_radius + wheel_thickness*wheel_thickness)}" iyz="0.0"
+         izz="${(1/2) * wheel_mass * (wheel_radius*wheel_radius)}" />
+    </inertial>
+    <visual>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+      </geometry>
+      <material name="Gray"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="${wheel_radius}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Опорное колесо -->
+  <joint name="caster_wheel_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="caster_wheel"/>
+    <origin xyz="${-caster_wheel_offset_x} 0 ${caster_wheel_offset_z}"/>
+  </joint>
+
+  <link name="caster_wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="${caster_wheel_mass}" />
+      <inertia ixx="${(2/5) * caster_wheel_mass * (caster_wheel_radius*caster_wheel_radius)}" ixy="0.0" ixz="0.0"
+         iyy="${(2/5) * caster_wheel_mass * (caster_wheel_radius*caster_wheel_radius)}" iyz="0.0"
+         izz="${(2/5) * caster_wheel_mass * (caster_wheel_radius*caster_wheel_radius)}" />
+    </inertial>
+    <visual>
+      <geometry>
+        <sphere radius="${caster_wheel_radius}"/>
+      </geometry>
+      <material name="Brown"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="${caster_wheel_radius}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ========================================== -->
+  <!-- ШЛЯПА - НАЧАЛО -->
+  <!-- ========================================== -->
+
+  <!-- Тулья шляпы (верхняя длинная часть) -->
+  <link name="hat_crown">
+    <inertial>
+      <origin xyz="0 0 ${hat_crown_height/2 - 0.03}" rpy="0 0 0"/>
+      <mass value="${hat_mass * 0.6}"/>
+      <inertia ixx="${(hat_mass * 0.6) * (3*hat_crown_radius*hat_crown_radius + hat_crown_height*hat_crown_height) / 12}" 
+               ixy="0" ixz="0"
+               iyy="${(hat_mass * 0.6) * (3*hat_crown_radius*hat_crown_radius + hat_crown_height*hat_crown_height) / 12}" 
+               iyz="0"
+               izz="${(hat_mass * 0.6) * hat_crown_radius*hat_crown_radius / 2}"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 ${hat_crown_height/2 - 0.03}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${hat_crown_radius}" length="${hat_crown_height}"/>
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${hat_crown_height/2 - 0.03}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${hat_crown_radius}" length="${hat_crown_height}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Поля шляпы (нижняя широкая часть) -->
+  <link name="hat_brim">
+    <inertial>
+      <origin xyz="0 0 ${hat_brim_height/2 - 0.005}" rpy="0 0 0"/>
+      <mass value="${hat_mass * 0.4}"/>
+      <inertia ixx="${(hat_mass * 0.4) * (3*hat_brim_radius*hat_brim_radius + hat_brim_height*hat_brim_height) / 12}" 
+               ixy="0" ixz="0"
+               iyy="${(hat_mass * 0.4) * (3*hat_brim_radius*hat_brim_radius + hat_brim_height*hat_brim_height) / 12}" 
+               iyz="0"
+               izz="${(hat_mass * 0.4) * hat_brim_radius*hat_brim_radius / 2}"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 ${hat_brim_height/2 - 0.005}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${hat_brim_radius}" length="${hat_brim_height}"/>
+      </geometry>
+      <material name="White"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${hat_brim_height/2 - 0.005}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${hat_brim_radius}" length="${hat_brim_height}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Соединение шляпы с основанием -->
+  <joint name="hat_base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="hat_crown"/>
+    <origin xyz="0 0 ${hat_offset_z}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Соединение тульи с полями -->
+  <joint name="hat_crown_brim_joint" type="fixed">
+    <parent link="hat_crown"/>
+    <child link="hat_brim"/>
+    <origin xyz="0 0 ${-hat_crown_height/2 - hat_brim_height/2}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ========================================== -->
+  <!-- ШЛЯПА - КОНЕЦ -->
+  <!-- ========================================== -->
+
+  <!-- Физические свойства для Gazebo -->
+  <gazebo reference="caster_wheel">
+    <mu1 value="0.001"/>
+    <mu2 value="0.001"/>
+  </gazebo>
+
+  <!-- Физические свойства для шляпы -->
+  <gazebo reference="hat_crown">
+    <material>Gazebo/Black</material>
+    <mu1 value="0.5"/>
+    <mu2 value="0.5"/>
+  </gazebo>
+
+  <gazebo reference="hat_brim">
+    <material>Gazebo/White</material>
+    <mu1 value="0.5"/>
+    <mu2 value="0.5"/>
+  </gazebo>
+
+</robot>

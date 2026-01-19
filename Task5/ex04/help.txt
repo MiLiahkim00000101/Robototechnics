@@ -1,0 +1,3 @@
+ros2 topic echo /robot/cmd_vel
+
+ros2 launch my_robot circle_movement.launch.py 
